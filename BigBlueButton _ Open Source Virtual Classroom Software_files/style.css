@@ -1,0 +1,59 @@
+/* 
+Theme Name: Big Blue Button
+Description: Big Blue Button WordPress Theme
+Author: VirtualIQ
+Author URI: http://virtualiq.co/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+
+.elementor-location-header .menu-item-291 a {
+	background: #0F4D9D;
+	color: #FFF !important;
+}
+
+.elementor-location-header .menu-item-291 a:hover {
+	background: #1F7AAA;
+}
+
+.header-no-link a {
+	cursor: pointer;
+}
+
+.custom-list ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.custom-list ul li {
+	position: relative;
+    padding-left: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.custom-list ul li:before {
+	content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background: #0F70D7;
+    border-radius: 50%;
+}
+
+.footer-links {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;	
+}
